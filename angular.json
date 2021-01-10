@@ -28,10 +28,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
-          },
+            "scripts": ["node_modules/jquery/dist/jquery.js",
+             "node_modules/bootstrap/dist/js/bootstrap.min.js" ]          },
           "configurations": {
             "production": {
               "fileReplacements": [
@@ -124,5 +125,8 @@
       }
     }
   },
-  "defaultProject": "MyMotos"
+  "defaultProject": "MyMotos",
+  "cli": {
+    "analytics": "95742df1-eaba-4252-83d3-38ae3b833977"
+  }
 }
